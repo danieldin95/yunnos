@@ -1,4 +1,4 @@
-[root@albert sh.learn]# cat root/.bashrc
+[root@albert sh.learn]# cat /root/.bashrc
 # .bashrc
 
 # Source global definitions
