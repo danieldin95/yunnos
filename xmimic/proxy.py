@@ -113,7 +113,7 @@ class TpProxy(object):
             pass
         elif m.type == mesg.MimicSoftVer.type:
             #self.cmdp.xshell.sendMsg(m.typestr(), m.data)
-            self.saveVer()
+            self.cmdp.xshell.saveVer()
         else:
             self.tabp.hal.sendMsg(m.typestr(), m.data)
 
